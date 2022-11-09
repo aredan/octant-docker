@@ -5,7 +5,7 @@ apt-transport-https \
 ca-certificates \
 curl
 
-ENV VERSION=0.20.0
+ENV VERSION=0.25.0
 RUN mkdir /octant 
 RUN cd /octant 
 RUN curl -o octant.deb -L https://github.com/vmware-tanzu/octant/releases/download/v${VERSION}/octant_${VERSION}_Linux-64bit.deb
